@@ -1,0 +1,76 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --misa-c-white: #ffffff;
+  --misa-c-white-soft: #f8f8f8;
+  --misa-c-white-mute: #f2f2f2;
+
+  --misa-c-gray-light: #ccc;
+
+  --misa-c-black: #181818;
+  --misa-c-black-soft: #222222;
+  --misa-c-black-mute: #282828;
+
+  --misa-c-bg-surface: #ecebf0;
+  --misa-c-blue: #2480ed;
+  --misa-c-red: #dc1d12;
+  --misa-c-green: #6edc58;
+  --misa-c-yellow: #edc201;
+  --misa-c-gray-lavender: #f9f8fd;
+  --misa-c-gray-lighter: #fafafa;
+
+  --misa-c-indigo: #2c3e50;
+
+  --misa-c-shadow-light: rgba(0, 0, 0, 0.05);
+  --misa-c-black-20: rgba(0, 0, 0, 0.2);
+  --misa-c-blue-50: rgba(37, 127, 237, 0.5);
+  --misa-c-white-20: rgba(255, 255, 255, 0.2);
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--misa-c-black);
+  background-color: var(--misa-c-white);
+}
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

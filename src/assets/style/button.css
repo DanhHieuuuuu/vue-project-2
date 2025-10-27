@@ -1,0 +1,5 @@
+.btn-focus:focus-within {
+  outline: 1px solid var(--color-blue);
+  outline-offset: 0;
+  box-shadow: 0 0 5px var(--misa-c-blue-50);
+}

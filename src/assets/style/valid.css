@@ -1,0 +1,9 @@
+.error_message {
+  color: var(--misa-c-red);
+}
+.field_error {
+  border: 1px solid var(--misa-c-red) !important;
+}
+/* .valid {
+  border: 1px solid var(--misa-c-green) !important;
+} */
